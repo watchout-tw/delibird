@@ -1,0 +1,12 @@
+module.exports = {
+    email: {
+        service: 'email service',
+        auth: 'auth token string or object of email service'
+        subject: 'email subject',
+        from: 'email from where'
+    },
+    schedule: {
+        loopPeriod: 'How long send email',
+        timezone: 'timezone of service'
+    }
+}
